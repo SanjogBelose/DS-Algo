@@ -23,7 +23,7 @@ class SinglyLinkedList{
         new_node -> address = NULL;
 
         if(head == NULL){
-            head = new_node;
+            head = new_node; // head is storing the address of new_node
         }
         else{
             new_node -> address = head;
@@ -43,7 +43,6 @@ class SinglyLinkedList{
                 head = NULL;
             }
         }
-        
          
     }
 
